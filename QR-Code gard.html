@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR-Code gard</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        background-color: #d5e1ef;
+      }
+      .box-grad {
+        display: flex;
+        flex-direction: column;
+
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        gap: 24px;
+        border-radius: 16px;
+        background-color: #fff;
+      }
+      .text-1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: inter;
+        gap: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-grad">
+      <img
+        style="border-radius: 12px"
+        src="/Frontend-Mentor/qr-code-component-main/images/image-qr-code.png"
+        alt=""
+      />
+      <div class="text-1">
+        <span style="font-size: 24px"
+          ><b>Improve your Front-end skills by building projects</b></span
+        >
+        <span style="color: #818b96"
+          >Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
